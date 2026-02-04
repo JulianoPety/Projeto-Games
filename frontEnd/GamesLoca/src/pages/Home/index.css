@@ -1,0 +1,23 @@
+.recent-games-section {
+  padding: 40px 25px; 
+  background-color: #0b0b15; 
+}
+
+.section-header {
+  margin-bottom: 40px;
+}
+.section-header h2 {
+  color: #fff;
+  font-size: 1.8rem;
+}
+
+.section-header p {
+  margin-top: 5px;
+}
+
+.games-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px; 
+  padding: 40px 7%;
+}

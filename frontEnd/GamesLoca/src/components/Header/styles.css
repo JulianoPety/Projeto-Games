@@ -1,0 +1,77 @@
+.header {
+    width: 100%;
+    background: #0b1220;
+}
+
+.header nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 32px;   
+}
+
+.button-list {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    margin-left: auto;
+}
+
+.button-list a {
+    color: #a78bfa;
+    padding: 6px 14px;
+    border-radius: 6px;
+    transition: 0.3s;
+    border: 1px solid transparent;
+    text-decoration: none;
+}
+
+.button-list a:hover {
+    color: white;
+    border: 1px solid #8b5cf6;
+    box-shadow: 0 0 10px #8b5cf6;
+}
+
+.button-list a::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -4px;
+  width: 0%;
+  height: 2px;
+  background-color: #7c3aed;
+  transform: translateX(-50%);
+  transition: 0.3s ease;
+}
+
+.button-list a:hover::after {
+    width: 100%;
+}
+
+.login-button {
+    background: linear-gradient(90deg, #2563eb, #7c3aed);
+    color: rgb(181, 183, 184);
+    padding: 8px 16px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 16px
+    
+}
+
+.login-button:hover {
+    background: #807e7e;
+    transition: 0.2s;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: 32px;
+}
+
+.logo img {
+    height: 64px;
+    width: auto;
+}
